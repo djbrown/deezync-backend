@@ -1,0 +1,7 @@
+{
+  "name": "deezync-backend",
+  "version": "0.0.0",
+  "main": "app.js",
+  "scripts": {},
+  "private": true
+}
