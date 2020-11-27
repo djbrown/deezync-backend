@@ -3,5 +3,8 @@
   "version": "0.0.0",
   "main": "app.js",
   "scripts": {},
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
