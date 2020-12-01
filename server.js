@@ -36,6 +36,9 @@ app.get('/deezer-login-callback', (req, res) => {
       res.cookie('accessToken', accessToken, {
           expires: expires,
           secure: true
+        }).cookie('expires', expires, {
+          expires: expires,
+          secure: true
         })
         .redirect(FRONTEND_URL)
     });
